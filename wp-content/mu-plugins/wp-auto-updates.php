@@ -2,6 +2,7 @@
 /*
 * Plugin Name: wp-auto-updates
 * Description: Automatically updates core, plugins & optionally themes. Paste to ./wp-content/mu-plugins/wp-auto-updates.php
+* Version: 1.0.0
 * Author: Constantin Oesterling @ infinitnet.de
 * License: GNU General Public License v3 or later
 * License URI: http://www.gnu.org/licenses/gpl-3.0.html

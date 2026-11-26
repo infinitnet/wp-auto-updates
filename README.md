@@ -8,7 +8,12 @@
 Automatically updates WordPress core, plugins & optionally themes. Updates rarely break WordPress, so this should be pretty safe.
 
 ## Installation
-- Upload to `./wp-content/mu-plugins/wp-auto-updates.php` creating folder and file.
+Download from the [latest release](https://github.com/infinitnet/wp-auto-updates/releases/latest).
+
+- Must-use plugin (recommended, cannot be deactivated from wp-admin): download `wp-auto-updates.php` from the release and upload it to `./wp-content/mu-plugins/wp-auto-updates.php`, creating the folder if needed. Do not unzip the release ZIP into `mu-plugins`: WordPress does not load must-use plugins from subfolders.
+- Regular plugin: upload `wp-auto-updates.zip` under Plugins > Add New > Upload Plugin and activate it. The ZIP holds one folder, `wp-auto-updates/`, with the same file.
+
+Use one of the two, not both.
 
 ## Credits
 - https://codex.wordpress.org/Configuring_Automatic_Background_Updates
